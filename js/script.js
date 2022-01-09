@@ -1,4 +1,4 @@
-function getMoveName(argMoveId) {
+function getMoveName(argMoveId){
       if (argMoveId == 1) {
         return 'kamień';
     } else if (argMoveId == 2) {
@@ -11,7 +11,7 @@ function getMoveName(argMoveId) {
     }
   }
 
-function displayResult(argComputerMove, argPlayerMove) {
+function displayResult(argComputerMove, argPlayerMove){
        printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
       if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
         printMessage('Ty wygrywasz!');
